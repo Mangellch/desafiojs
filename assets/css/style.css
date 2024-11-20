@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    padding: 0 2vw;
+}
+
+.card {
+    color: rgba(255, 255, 255, 0.931);
+    width: 30vw;
+    height: 40vw;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.692);
+    background: #7ba238;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    & h2 {
+        font-size: 2.7vw;
+        width: 90%;
+        margin-left: 1vh;
+
+    }
+    & p {
+        font-size: 2vw;
+        margin-left: 1vh;
+    }
+}
+
+.text {
+    height: 7vh;
+    display: flex;
+    & h3 {
+        height: 100%;
+        width: 40%;
+        font-size: 2vw;
+        display: flex;
+        margin: auto;
+        align-items: center;
+        & span {
+            margin-left: 1vh;
+        }
+    }
+    & button {
+        background: #e2a30b;
+        color: white;
+        border-radius: 5px;
+        padding: .7vw 2vw;
+        width: 1vh;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        font-size: 2vw;
+        cursor: pointer;
+    }
+}
+
+.card img {
+    display: flex;
+    height: 18vw;
+    width: auto;
+    margin: auto;
+}
+
+.card input {
+    width: 80%;
+    border-radius: 5px;
+    border: none;
+    padding: 3px 10px;
+}
+
+.total-section {
+    width: 30%;
+    padding: 3vh;
+    box-sizing: border-box;
+    font-size: 2vw;
+}
+
+.total-section span {
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
